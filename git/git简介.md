@@ -32,3 +32,12 @@ git config --global user.email "email@exaple.com"
 因为git是分布式管理系统，所以每个机器都必须自报家门：你的名字和email地址。
 
 git config命令的--global参数表示本机上所有的git仓库都会使用这个配置，当然也可以对某个仓库制定不同的用户名和Email地址。
+
+# 创建版本库
+创建完文件夹后，在文件夹内执行第1步，把当前文件夹变成git可以管理的仓库。
+把一个文件放到git仓库需要执行第2第3步，即使用add告诉git把文件添加到仓库，使用commit告诉git把文件提交到仓库。
+'''
+1. git init
+2. git add some files
+3. git commit -m some files
+'''
